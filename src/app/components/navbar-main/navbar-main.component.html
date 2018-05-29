@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark mb-4">
+  <div class="container">
+    <a routerLink="/" class="navbar-brand">Webgl SPA Starter</a>
+    <div>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a routerLink="/" class="nav-link" [routerLinkActive]="['active']"
+             [routerLinkActiveOptions]="{exact: true}">Home</a>
+        </li>
+        <li>
+          <a routerLink="/about" class="nav-link" [routerLinkActive]="['active']"
+             [routerLinkActiveOptions]="{exact: true}">About</a>
+        </li>
+        <li>
+          <a routerLink="/contact" class="nav-link" [routerLinkActive]="['active']"
+             [routerLinkActiveOptions]="{exact: true}">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
