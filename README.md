@@ -1,4 +1,7 @@
-# WebglSpaStarter
+# Webgl SPA Starter Template
+
+I am creating a template to develop modern websites using Threejs, GSAP and NgBootstrap.
+___* Currently under construction___
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
 
